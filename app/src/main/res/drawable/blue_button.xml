@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 手指按下 -->
+    <item android:state_pressed="true">
+        <!-- 矩形 -->
+        <shape android:shape="rectangle">
+
+            <!-- 填充的颜色 -->
+            <solid android:color="#33444444"/>
+        </shape>
+    </item>
+    <!-- 手指未按下 -->
+    <item>
+        <!-- 矩形 -->
+        <shape android:shape="rectangle">
+
+            <!-- 填充的颜色 -->
+            <solid android:color="#3EC5FF"/>
+        </shape>
+    </item>
+
+</selector>
